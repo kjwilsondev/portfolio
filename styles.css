@@ -43,7 +43,11 @@ body {
   border-radius: 50%;
   display: inline-block;
   margin-top: 15px;
-  border: 5px solid white;
+  border: 7px solid white;
+  background-image: url("/kj.png");
+  background-origin: content-box;
+  background-position: 50% 45%;
+  background-size: 340px;
 }
 
 /* #navBar {
@@ -83,6 +87,7 @@ body {
   .profile {
     height: 166px;
     width: 166px;
+    background-size: 280px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -100,6 +105,8 @@ body {
   .profile {
     height: 100px;
     width: 100px;
+    background-position: 50% 45%;
+    background-size: 150px;
   }
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
