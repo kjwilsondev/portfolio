@@ -33,8 +33,8 @@ var swiper = new Swiper(".blog-slider", {
 
 // $(window).scroll(function () {
 //   if ($(window).scrollTop() > 10) {
-//     $("#navBar").addClass("floatingNav");
+//     $("#navbar").addClass("floatingNav");
 //   } else {
-//     $("#navBar").removeClass("floatingNav");
+//     $("#navbar").removeClass("floatingNav");
 //   }
 // });
