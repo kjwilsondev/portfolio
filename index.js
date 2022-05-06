@@ -31,6 +31,8 @@ var swiper = new Swiper(".blog-slider", {
   },
 });
 
+// change this code in order to:
+// switch button on left to right side as screen expands
 // $(window).scroll(function () {
 //   if ($(window).scrollTop() > 10) {
 //     $(".profile").addClass("profile-smaller");

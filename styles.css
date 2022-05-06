@@ -91,6 +91,7 @@ strong {
   margin-top: 200px !important;
   max-width: 600px;
   border: 5px solid #f1f0f0;
+  line-height: 160%;
 }
 
 #top {
@@ -119,6 +120,7 @@ strong {
     height: 400px;
   }
   #statement {
+    max-width: 680px;
     height: 200px !important;
   }
 }
@@ -129,8 +131,9 @@ strong {
     margin: 90px auto;
   }
   #statement {
-    min-height: 200px !important;
+    min-height: 230px !important;
     text-align: center;
+    letter-spacing: 120% !important;
   }
   .profile {
     height: 100px;
