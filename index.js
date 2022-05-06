@@ -1,22 +1,6 @@
 AOS.init({});
 
-(async () => {
-  // Let's go
-  //   fadeIn(title);
-  var scene = document.getElementById("scene");
-  var parallaxInstance = new Parallax(scene, {
-    relativeInput: false,
-    hoverOnly: false,
-    pointerEvents: true,
-    precision: 0.01,
-  });
-  //   if ($(window).width() > 640) { //set up breaking point
-
-  //     $('#scene').parallax(); // this or any other code you need
-
-  // }
-})();
-
+// Swiper API for Sliders
 var swiper = new Swiper(".blog-slider", {
   spaceBetween: 30,
   effect: "fade",
@@ -40,3 +24,10 @@ var swiper = new Swiper(".blog-slider", {
 //     $(".profile").removeClass("profile-smaller");
 //   }
 // });
+
+// for removing logo and first left side button
+// var element = document.getElementById("myDiv");
+// element.style.display = "none";
+
+// var element = document.getElementById("myDIV");
+// element.classList.remove("mystyle");

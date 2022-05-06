@@ -386,10 +386,19 @@ strong {
 .blog-slider {
   margin-top: 105px !important;
 }
+#statement {
+  height: 165px !important;
+}
 
 @media screen and (max-width: 768px) {
   .blog-slider__pagination .swiper-pagination-bullet-active {
     height: 11px;
     width: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #statement {
+    height: 185px !important;
+    margin-top: 100px !important;
   }
 }
