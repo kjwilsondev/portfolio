@@ -88,10 +88,11 @@ strong {
 #statement {
   height: auto;
   padding: auto;
-  margin-top: 200px !important;
+  margin-top: 195px !important;
   max-width: 600px;
   border: 5px solid #f1f0f0;
   line-height: 160%;
+  max-height: 300px;
 }
 
 #top {
@@ -121,7 +122,7 @@ strong {
   }
   #statement {
     max-width: 680px;
-    height: 200px !important;
+    height: 150px !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -131,7 +132,7 @@ strong {
     margin: 90px auto;
   }
   #statement {
-    min-height: 230px !important;
+    min-height: 160px !important;
     text-align: center;
     letter-spacing: 120% !important;
   }
@@ -153,7 +154,7 @@ strong {
     height: 350px;
   }
   #statement {
-    min-height: 150px !important;
+    height: 100px !important;
   }
 }
 .blog-slider__item {
