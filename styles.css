@@ -85,23 +85,23 @@ strong {
   border-bottom: 2px solid #0c0925;
   margin: 7px 4px 10px 6px;
   animation: mouse-scroll 1.5s infinite;
-  -webkit-animation: mouse-scroll 1.5s infinite; 
-  -moz-animation: mouse-scroll 1.5s infinite:
+  -webkit-animation: mouse-scroll 1.5s infinite;
+  -moz-animation: mouse-scroll 1.5s infinite;
 }
 #arrow-1 {
-  animation-delay: mouse-scroll .1s infinite;
-   -webkit-animation-delay: .1s; 
-   -moz-animation-delay: .1s;
+  animation-delay: mouse-scroll 0.1s infinite;
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
 }
 #arrow-2 {
-  animation-delay: mouse-scroll .25s infinite;
-   -webkit-animation-delay: .25s; 
-   -moz-animation-delay: .25s;
+  animation-delay: mouse-scroll 0.25s infinite;
+  -webkit-animation-delay: 0.25s;
+  -moz-animation-delay: 0.25s;
 }
 #arrow-3 {
-  animation-delay: mouse-scroll .4s infinite;
-   -webkit-animation-delay: .4s; 
-   -moz-animation-delay: .4s;
+  animation-delay: mouse-scroll 0.4s infinite;
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
 }
 
 @-webkit-keyframes mouse-scroll {
@@ -109,11 +109,11 @@ strong {
     opacity: 1;
   }
   50% {
-    opacity: .5;
+    opacity: 0.5;
   }
   100% {
     opacity: 1;
-  } 
+  }
 }
 @keyframes mouse-scroll {
   0% {
