@@ -59,7 +59,7 @@ strong {
 #scroll-more {
   color: #0c0925;
   background-image: none !important;
-  box-shadow: 0px 14px 50px rgb(193, 193, 193) !important;
+  box-shadow: 0px 2px 10px rgb(193, 193, 193) !important;
 }
 
 /* .blog-slider__button {
@@ -84,4 +84,45 @@ strong {
   border-right: 2px solid #0c0925;
   border-bottom: 2px solid #0c0925;
   margin: 7px 4px 10px 6px;
+  animation: mouse-scroll 1s infinite;
+  -webkit-animation: mouse-scroll 1s infinite; 
+  -moz-animation: mouse-scroll 1s infinite:
+}
+#arrow-1 {
+  animation-delay: mouse-scroll .1s infinite;
+   -webkit-animation-delay: .1s; 
+   -moz-animation-delay: .1s;
+}
+#arrow-2 {
+  animation-delay: mouse-scroll .2s infinite;
+   -webkit-animation-delay: .2s; 
+   -moz-animation-delay: .2s;
+}
+#arrow-3 {
+  animation-delay: mouse-scroll .3s infinite;
+   -webkit-animation-delay: .3s; 
+   -moz-animation-delay: .3s;
+}
+
+@-webkit-keyframes mouse-scroll {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  } 
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
