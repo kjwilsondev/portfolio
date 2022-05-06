@@ -1,6 +1,6 @@
 AOS.init({});
 
-// Swiper API for Sliders
+// Swiper Card Functions
 var swiper = new Swiper(".blog-slider", {
   spaceBetween: 30,
   effect: "fade",
