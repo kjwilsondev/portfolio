@@ -84,9 +84,9 @@ strong {
   border-right: 2px solid #0c0925;
   border-bottom: 2px solid #0c0925;
   margin: 7px 4px 10px 6px;
-  animation: mouse-scroll 1s infinite;
-  -webkit-animation: mouse-scroll 1s infinite; 
-  -moz-animation: mouse-scroll 1s infinite:
+  animation: mouse-scroll 1.5s infinite;
+  -webkit-animation: mouse-scroll 1.5s infinite; 
+  -moz-animation: mouse-scroll 1.5s infinite:
 }
 #arrow-1 {
   animation-delay: mouse-scroll .1s infinite;
@@ -94,14 +94,14 @@ strong {
    -moz-animation-delay: .1s;
 }
 #arrow-2 {
-  animation-delay: mouse-scroll .2s infinite;
-   -webkit-animation-delay: .2s; 
-   -moz-animation-delay: .2s;
+  animation-delay: mouse-scroll .25s infinite;
+   -webkit-animation-delay: .25s; 
+   -moz-animation-delay: .25s;
 }
 #arrow-3 {
-  animation-delay: mouse-scroll .3s infinite;
-   -webkit-animation-delay: .3s; 
-   -moz-animation-delay: .3s;
+  animation-delay: mouse-scroll .4s infinite;
+   -webkit-animation-delay: .4s; 
+   -moz-animation-delay: .4s;
 }
 
 @-webkit-keyframes mouse-scroll {
