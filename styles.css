@@ -53,7 +53,13 @@ strong {
   background-origin: content-box;
   background-position: 50% 45%;
   background-size: 340px;
+  transition: border 0.7s ease-in-out;
   /* outline: 5px solid #eaf0f7; */
+}
+
+.profile:hover {
+  border: 7px solid #0080ff;
+  transition: border 0.3s ease-in-out;
 }
 
 #scroll-more {
