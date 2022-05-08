@@ -27,7 +27,7 @@ var swiper = new Swiper(".blog-slider", {
 
 // for removing logo and first left side button
 // var element = document.getElementById("myDiv");
-// element.style.display = "none";
+// element.style.visibility = "visible";
 
 // var element = document.getElementById("myDIV");
 // element.classList.remove("mystyle");
