@@ -330,3 +330,8 @@
     margin-top: 100px !important;
   }
 }
+@media screen and (max-height: 654px) and (max-width: 280px) {
+  #statement {
+    min-height: 240px !important;
+  }
+}
