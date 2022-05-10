@@ -1,4 +1,5 @@
 // Thank you Louis Hoebregts!
+//
 console.clear();
 
 // Get the canvas element from the DOM

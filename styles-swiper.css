@@ -26,6 +26,10 @@
   margin-top: 20px !important;
 }
 
+#film {
+  margin-bottom: 5vh;
+}
+
 .swiper-container-horizontal
   > .swiper-pagination-bullets
   .swiper-pagination-bullet {
