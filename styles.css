@@ -132,3 +132,26 @@ strong {
     opacity: 1;
   }
 }
+
+#bottom {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+#globe {
+  width: 100px;
+  height: 100px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
